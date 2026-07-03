@@ -27,5 +27,6 @@ Content-Type: application/json
 ### Relatório financeiro administrativo
 GET {{baseUrl}}/api/admin/financial-report
 
-### Deletar usuário
+### Deletar usuário (requer chave de admin)
 DELETE {{baseUrl}}/api/users/1
+x-admin-key: dev-only-admin-key-change-me
